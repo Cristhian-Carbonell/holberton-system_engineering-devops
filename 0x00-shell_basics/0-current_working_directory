@@ -1,4 +1,4 @@
 #!/bin/bash
-pwd \n
+"pwd \n"
 
-echo "why?"
+#why?
