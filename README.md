@@ -110,8 +110,9 @@ For a more full listing of DevOps tools, see the [Periodic Table of DevOps Tools
 - [What is DevOps?](https://theagileadmin.com/what-is-devops/)
 - [Understanding Agile Methodology](https://digital.ai/resources/agile-101)
 
+---------------------
 
-# Bash
+# **Bash**
 
 ![imagen](https://opensource.com/sites/default/files/styles/image-full-size/public/lead-images/bash_command_line.png?itok=k4z94W2U)
 
@@ -172,7 +173,7 @@ The amount of work this saves Linux users each day is impossible to estimate. It
 
 When experienced users say that they want to learn Bash, if they don't mean they want to learn Linux commands, then they probably mean that they want to improve the way they script their commands. For instance, this is an extremely rudimentary Bash script that converts a temporary file (imagine it's a file created by a separate process) to a specific directory:
 
-```s
+```shell
 #!/usr/bin/bash
 
 cp tmp.png ~/public_html/`date +%Y%m%d`.png
@@ -182,7 +183,7 @@ That's valid Bash. You can verify it by copying and pasting the command (the las
 
 Learning Bash, though, is all about understanding how a simple command like this can be improved for the sake of automation. For instance, if the file tmp.png doesn't exist, then the script fails. If this script is a key component to, for instance, a blogging site that requires a new image each day so that a custom header image can be constructed, then the script's failure could cause catastrophic errors elsewhere. A user who knows Bash could add resiliency using Bash syntax:
 
-```s
+```shell
 #!/usr/bin/bash
 
 IMG="tmp.png"
