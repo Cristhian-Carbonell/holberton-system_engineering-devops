@@ -1,80 +1,78 @@
-0x03. Shell, init files, variables and expansions
- Foundations - System engineering & DevOps ― Bash   
+# Project 0x03. Shell, init files, variables and expansions
 
- by Julien Barbier, co-founder at Holberton School
+## Resources
 
- Ongoing project - started 06-08-2020, must end by 06-09-2020 (in about 8 hours) - you're done with 0% of tasks.
+#### Read or watch:
 
- Checker was released at 06-08-2020 12:00 PM
+- [Expansions](http://linuxcommand.org/lc3_lts0080.php)
+- [Shell Arithmetic](https://www.gnu.org/software/bash/manual/html_node/Shell-Arithmetic.html)
+- [Variables](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_02.html)
+- [Shell initialization files](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_01.html)
+- [The alias Command](http://www.linfo.org/alias.html)
+- [Technical Writing](https://students-support.hbtn.io/hc/en-us/restricted?return_to=https%3A%2F%2Fstudents-support.hbtn.io%2Fhc%2Fen-us%2Farticles%2F360023750254)
 
- Manual QA review must be done (request it when you are done with the project)
+#### man or help:
 
- QA review fully automated.
+- ```printenv```
+- ```set```
+- ```unset```
+- ```export```
+- ```alias```
+- ```unalias```
+- ```.```
+- ```source```
+- ```printf```
 
-Resources
-Read or watch:
+## Learning Objectives
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/2012/04/feynman-technique/), **without the help of Google:**
 
-Expansions
-Shell Arithmetic
-Variables
-Shell initialization files
-The alias Command
-Technical Writing
-man or help:
+### General
+- What happens when you type ```$ ls -l *.txt```
 
-printenv
-set
-unset
-export
-alias
-unalias
-.
-source
-printf
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+## Shell Initialization Files
+- What are the ```/etc/profile``` file and the ```/etc/profile.d``` directory
+- What is the ```~/.bashrc``` file
 
-General
-What happens when you type $ ls -l *.txt
-Shell Initialization Files
-What are the /etc/profile file and the /etc/profile.d directory
-What is the ~/.bashrc file
-Variables
-What is the difference between a local and a global variable
-What is a reserved variable
-How to create, update and delete shell variables
-What are the roles of the following reserved variables: HOME, PATH, PS1
-What are special parameters
-What is the special parameter $??
-Expansions
-What is expansion and how to use them
-What is the difference between single and double quotes and how to use them properly
-How to do command substitution with $() and backticks
-Shell Arithmetic
-How to perform arithmetic operations with the shell
-The alias Command
-How to create an alias
-How to list aliases
-How to temporarily disable an alias
-Other help pages
-How to execute commands from a file in the current shell
-Requirements
-General
-Allowed editors: vi, vim, emacs
-All your scripts will be tested on Ubuntu 14.04 LTS
-All your scripts should be exactly two lines long ($ wc -l file should print 2)
-All your files should end with a new line (why?)
-The first line of all your files should be exactly #!/bin/bash
-A README.md file, at the root of the folder of the project, describing what each script is doing
-You are not allowed to use &&, || or ;
-You are not allowed to use bc, sed or awk
-All your files must be executable
-More Info
-Read your /etc/profile, /etc/inputrc and ~/.bashrc files.
+## Variables
+- What is the difference between a local and a global variable
+- What is a reserved variable
+- How to create, update and delete shell variables
+- What are the roles of the following reserved variables: HOME, PATH, PS1
+- What are special parameters
+- What is the special parameter ```$?```?
 
-Look at some files in the /etc/profile.d directory.
+## Expansions
+- What is expansion and how to use them
+- What is the difference between single and double quotes and how to use them properly
+- How to do command substitution with ```$()``` and backticks
 
-Note: You do not have to learn about awk, tar, bzip2, date, scp, ulimit, umask, or shell scripting, yet.
+## Shell Arithmetic
+- How to perform arithmetic operations with the shell
 
-Manual QA Review
-It is your responsibility to request a review for your blog from a peer before the project’s deadline. If no peers have been reviewed, you should request a review from a TA or staff member.
+## The ```alias``` Command
+- How to create an alias
+- How to list aliases
+- How to temporarily disable an alias
+
+## Other ```help``` pages
+- How to execute commands from a file in the current shell
+
+## Requirements
+### General
+- Allowed editors: ```vi```, ```vim```, ```emacs```
+- All your scripts will be tested on Ubuntu 14.04 LTS
+- All your scripts should be exactly two lines long (```$ wc -l file``` should print 2)
+- All your files should end with a new line ([why?](https://unix.stackexchange.com/questions/18743/whats-the-point-in-adding-a-new-line-to-the-end-of-a-file/18789))
+- The first line of all your files should be exactly ```#!/bin/bash```
+- A R```EADME.md``` file, at the root of the folder of the project, describing what each script is doing
+- You are not allowed to use ```&&```, ```||``` or ```;```
+- You are not allowed to use ```bc```, ```sed``` or ```awk```
+- All your files must be executable
+
+## More Info
+
+Read your ```/etc/profile```, ```/etc/inputrc``` and ```~/.bashrc``` files.
+
+Look at some files in the ```/etc/profile.d``` directory.
+
+Note: You do not have to learn about ```awk```, ```tar```, ```bzip2```, ```date```, ```scp```, ```ulimit```, ```umask```, or shell scripting, yet.
