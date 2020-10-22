@@ -1,5 +1,6 @@
 # Project 0x03. Shell, init files, variables and expansions
 
+![imagen](https://cloudaffaire.com/wp-content/uploads/2020/05/5_Shell-Scripting-%E2%80%93-Shell-Variables.jpg)
 ## Resources
 
 #### Read or watch:
