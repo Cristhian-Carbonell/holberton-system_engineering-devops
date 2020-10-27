@@ -13,6 +13,5 @@ string="To infinity and beyond"
 while tru
 do
     echo "$string"
-    if 
 done
 rm "$TEMP_FILE"
