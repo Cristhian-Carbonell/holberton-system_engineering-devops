@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # a manage_my_process Bash script that:
-TEMP_FILE=/var/manage_my_process
+TEMP_FILE=/tmp/manage_my_process
 while true
 do
     echo "I am alive!"
