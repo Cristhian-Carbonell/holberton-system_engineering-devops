@@ -4,6 +4,20 @@
 #include <sys/types.h>
 
 /**
+ * infinite_while - Run an infinite while loop
+ *
+ * Return: 0
+ */
+int infinite_while(void)
+{
+	while (1)
+	{
+		sleep(1);
+	}
+	return (0);
+}
+
+/**
  * main - program that creates 5 zombie processes.
  *
  * Return: 0
@@ -31,19 +45,5 @@ int main(void)
 			exit(0);
 	}
 	infinite_while();
-	return (0);
-}
-
-/**
- * infinite_while - Run an infinite while loop
- *
- * Return: 0
- */
-int infinite_while(void)
-{
-	while (1)
-	{
-		sleep(1);
-	}
 	return (0);
 }
