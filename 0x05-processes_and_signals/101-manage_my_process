@@ -5,7 +5,7 @@ string="manage_my_process started"
 if [ "$1" = "start" ]
 then
     ./manage_my_process &
-    pidof -s bash > "$TEMP_FILE" && echo "$string started"
+    echo "$!" > "$TEMP_FILE" && echo "$string started"
 elif [ "$1" = stop ]
 then
     kill "$(cat $TEMP_FILE)"
@@ -15,7 +15,7 @@ then
     kill "$(cat $TEMP_FILE)"
     rm "$TEMP_FILE"
     ./manage_my_process &
-    pidof -s bash > "$TEMP_FILE" && echo "$string restarted" 
+    echo "$!" > "$TEMP_FILE" && echo "$string restarted" 
 else
     echo "Usage: manage_my_process {start|stop|restart}"
 fi
