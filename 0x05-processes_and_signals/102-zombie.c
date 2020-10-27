@@ -2,9 +2,8 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-/**
- *
- */
+int infinite_while(void);
+
 int main()
 {
     pid_t pid1, pid2, pid3, pid4, pid5;
@@ -81,9 +80,6 @@ int main()
     return (0);
 }
 
-/**
- *
- */
 int infinite_while(void)
 {
     while (1)
