@@ -3,6 +3,6 @@
 TEMP_FILE=/tmp/manage_my_process
 while true
 do
-    echo "I am alive!"
+    echo "I am alive!" >> "$TEMP_FILE"
     sleep 2
-done >> "$TEMP_FILE"
+done
