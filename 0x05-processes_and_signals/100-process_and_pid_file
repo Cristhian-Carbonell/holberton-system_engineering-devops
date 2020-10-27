@@ -11,7 +11,7 @@ trap 'echo "I hate the kill command"' SIGTERM
 trap 'echo "Y U no love me?!"' SIGINT
 trap rm "$TEMP_FILE" SIGQUIT SIGTERM
 string="To infinity and beyond"
-while tru
+while true
 do
     echo "$string"
 done
