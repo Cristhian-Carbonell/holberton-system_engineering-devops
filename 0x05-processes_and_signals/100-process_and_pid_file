@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#  script that:
+# script that:
 # Creates the file /var/run/holbertonscript.pid containing its PID
 # Displays To infinity and beyond indefinitely
 # Displays I hate the kill command when receiving a SIGTERM signal
@@ -8,7 +8,7 @@
 TEMP_FILE=/var/run/holbertonscript.pid
 pidof -s bash > "$TEMP_FILE"
 trap 'echo "I hate the kill command"' SIGTERM
-trap 'echo "Y U no love me?!"' SIGINT
+trap 'echo "Y U no love me?!"; exit' SIGINT
 trap rm "$TEMP_FILE" SIGQUIT SIGTERM
 string="To infinity and beyond"
 while true
