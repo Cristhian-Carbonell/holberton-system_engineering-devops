@@ -24,7 +24,7 @@ int infinite_while(void)
  */
 int main(void)
 {
-	pid_t pid1, pid2, pid3, pid4, pid5;
+	pid_t pid1;
 	int status;
 
 	while (status < 5)
