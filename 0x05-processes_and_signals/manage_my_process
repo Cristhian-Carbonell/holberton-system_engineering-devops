@@ -5,4 +5,4 @@ while true
 do
     echo "I am alive!"
     sleep 2
-done > "$TEMP_FILE"
+done >> "$TEMP_FILE"
