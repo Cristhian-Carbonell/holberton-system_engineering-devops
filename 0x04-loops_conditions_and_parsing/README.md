@@ -1,5 +1,7 @@
 # Project 0x04. Loops, conditions and parsing
 
+![imagen](https://noelyoung.net/wp-content/uploads/2019/07/useful-bash-commands.jpg)
+
 For this project, students are expected to look at this concept:
 - [shell](https://intranet.hbtn.io/concepts/9)
 
