@@ -1,5 +1,7 @@
 # Project 0x05. Processes and signals
 
+![imagen](https://miro.medium.com/max/642/1*IaPYYJt9tXFvDnLeWNuVbw.png)
+
 ## Resources
 
 #### Read or watch:
