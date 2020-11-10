@@ -45,4 +45,4 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ## More Info
 
-For those who want to know more and learn about all signals, check out [this article](https://www.computerhope.com/unix/signals.htm).
+For those who want to know more and learn about all signals, check out [this article](https://www.computerhope.com/unix/signals.htm)..
