@@ -19,4 +19,4 @@ printf %s "server{
     }
     add_header X-Served-By $HOSTNAME;
 }" > /etc/nginx/sites-available/default
-sudo /etc/init.d/nginx restart
+sudo service nginx restart
