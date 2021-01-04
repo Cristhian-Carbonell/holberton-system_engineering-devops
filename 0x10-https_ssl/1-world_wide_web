@@ -20,7 +20,7 @@ then
     dig web-02."$1" +short
 elif [ "$#" == 2 ]
 then
-    printf "The subdomain %s i a " "$2"
+    printf "The subdomain %s is a " "$2"
     dig +nocmd "$2.$1" +noall +answer | awk '{printf $4}'
     printf " record and points to "
     dig "$2.$1" +short
