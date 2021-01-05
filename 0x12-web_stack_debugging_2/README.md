@@ -2,7 +2,7 @@
 
 For this project, students are expected to look at this concept:
 
-- [Web stack debugging](https://intranet.hbtn.io/concepts/68)
+- [Web stack debugging](https://github.com/Cristhian-Carbonell/holberton-system_engineering-devops/blob/master/0x12-web_stack_debugging_2/imagen/99holberton.jpg?raw=true)
 
 ![imagen](https://github.com/Cristhian-Carbonell/holberton-system_engineering-devops/blob/master/0x12-web_stack_Debugging_2/imagen/99holberton.jpg)
 
