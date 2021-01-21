@@ -7,6 +7,7 @@ For this project, students are expected to look at these concepts:
 - [Database administration](https://intranet.hbtn.io/concepts/49)
 - [Web stack debugging](https://intranet.hbtn.io/concepts/68)
 
+![](https://github.com/Cristhian-Carbonell/holberton-system_engineering-devops/blob/master/0x14-mysql/imagen/KkrkDHT.png?raw=true)
 ## Resources
 #### Read or watch:
 
