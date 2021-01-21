@@ -21,7 +21,7 @@ For this project, students are expected to look at these concepts:
 - ```mysqldump```
 
 ## Learning Objectives
-At the end of thi- s ## project, you a- re expected to be able to [explain to anyone](https://fs.blog/2012/04/feynman-technique/), **without the help of Google:**
+At the end of this project, you a- re expected to be able to [explain to anyone](https://fs.blog/2012/04/feynman-technique/), **without the help of Google:**
 
 ## General
 - What is the main role of a - database
