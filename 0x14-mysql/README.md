@@ -1,26 +1,27 @@
 # 0x14. MySQL
 
-For this project, students are expected to look at these concepts:
-
 ![](https://d1.awsstatic.com/asset-repository/products/amazon-rds/1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png)
 
+
+For this project, students are expected to look at these concepts:
 - [Database administration](https://intranet.hbtn.io/concepts/49)
 - [Web stack debugging](https://intranet.hbtn.io/concepts/68)
 
+![](https://github.com/Cristhian-Carbonell/holberton-system_engineering-devops/blob/master/0x14-mysql/imagen/KkrkDHT.png?raw=true)
 ## Resources
 #### Read or watch:
 
 - [What is a primary-replica cluster](https://www.digitalocean.com/community/tutorials/how-to-choose-a-redundancy-plan-to-ensure-high-availability#sql-replication)
-- [MySQL primary replica setup](https://intranet.hbtn.io/rltoken/M2mXERIEQA7w0Pkj85nTNw)```
+- [MySQL primary replica setup](https://intranet.hbtn.io/rltoken/M2mXERIEQA7w0Pkj85nTNw)
 
-## - [Build a robust database backup strategy](https://www.databasejournal.com/[features/mssql/de](https://fs.blog/2012/04/feynman-technique/)ve**loping-a-sql-server-backup-strategy.html)**
+- [Build a robust database backup strategy](https://www.databasejournal.com/[features/mssql/de](https://fs.blog/2012/04/feynman-technique/)ve**loping-a-sql-server-backup-strategy.html)
 
-## #### man or hel- p:
+#### man or help:
 
-- - ```mysqldump```https://- fs.blog/2012/04/feynman-technique- /
+- ```mysqldump```
 
-#**# Learning Objectives**
-At the end of thi- s ## project, you a- re expected to be able to [explain to an- yone](https://fs.blog/2012/04/feynman-tec- hnique/), **without the help of Google:- **
+## Learning Objectives
+At the end of this project, you a- re expected to be able to [explain to anyone](https://fs.blog/2012/04/feynman-technique/), **without the help of Google:**
 
 ## General
 - What is the main role of a - database
