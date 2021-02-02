@@ -15,7 +15,7 @@ if __name__ == "__main__":
         data = url.json()
         with open("{}.csv".format(argv[1]), mode="w") as file_csv:
                 file_write = csv.writer(file_csv, delimiter=',', quotechar='"',
-                                       quoting=csv.QUOTE_ALL)
+                                        quoting=csv.QUOTE_ALL)
                 for task in data:
                         file_write.writerow([argv[1], data_name,
                                              task.get("completed"),
