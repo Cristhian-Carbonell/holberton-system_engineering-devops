@@ -32,16 +32,14 @@ server {
 
 	location /api {
 		include proxy_params;
-		proxy_pass http://127.0.0.1:5002/api;
+		proxy_pass http://0.0.0.0:5002/api;
 	}
 
 	location / {
-		proxy_pass http://0.0.0.0:5003/2-hbnh;
+		proxy_pass http://0.0.0.0:5003/2-hbnb;
 	}
 
 	location /static {
-		proxy_pass http://0.0.0.0:5003/static;
+		proxy_pass http://0.0.0.0:5003;
 	}
-
-	server_name _;
 }
